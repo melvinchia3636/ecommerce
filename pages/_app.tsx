@@ -2,7 +2,7 @@
 import '../styles/globals.css';
 import React from 'react';
 import type { AppProps } from 'next/app';
-import Layout from '../components/layout';
+import Layout from '../components/utils/layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
